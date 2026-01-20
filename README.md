@@ -7,31 +7,9 @@ The Smart ATS app takes a job description and a resume as inputs, evaluates the 
 ## Prerequisites
 Before running the app, ensure you have the following installed:
 - Python 3.7 or later
-- venv (python -m venv venv)
 - pip (Python package installer)
 - Google API key for Generative AI (makersuite)
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/smart-ats.git
-    cd smart-ats
-    ```
-
-2. Install the required Python packages:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. Set up your environment variables:
-    - Create a `.env` file in the project directory.
-    - Add your Google API key to the `.env` file:
-        ```
-        GOOGLE_API_KEY=your_google_api_key_here
-        ```
-4.Create .gitignore:
-    - add private files in this folder
-    
 ## Technologies Used
 - **Streamlit**: An open-source app framework for creating web apps with Python.
 - **PyPDF2**: A PDF toolkit for extracting text from PDF files.
